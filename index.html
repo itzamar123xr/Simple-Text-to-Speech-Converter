@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text To Speech App | Itzcrazy07x</title>
+</head>
+<body>
+    <!-- Canvas element for Three.js particle background -->
+    <canvas id="background"></canvas>
+
+    <div class="container">
+        <div class="wrapper">
+            <header>Text To Speech</header>
+            <form action="">
+                <div class="row">
+                    <label>Enter Text</label>
+                    <textarea></textarea>
+                </div>
+                <div class="row">
+                    <label>Select Voice</label>
+                    <div class="outer">
+                        <select></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <label>Speech Rate</label>
+                    <input type="range" min="0.1" max="10" step="0.1" value="1" id="speechRate">
+                    <span id="speechRatePercent"></span> <!-- Display speech rate percentage -->
+                </div>
+                <div class="row">
+                    <label>Pitch</label>
+                    <input type="range" min="0" max="2" step="0.1" value="1" id="pitch">
+                    <span id="pitchPercent"></span> <!-- Display pitch percentage -->
+                </div>
+                <div class="row">
+                    <label>Volume</label>
+                    <input type="range" min="0" max="1" step="0.1" value="1" id="volume">
+                    <span id="volumePercent"></span> <!-- Display volume percentage -->
+                </div>
+                <button id="convertBtn" class="rainbow">Convert To Speech</button>
+                <button id="saveBtn">Save Speech</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Include Three.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- JavaScript file for particle background -->
+    <script src="script.js"></script>
+</body>
+</html>
