@@ -18,6 +18,10 @@ Customization: Personalize the text-to-speech experience according to individual
 
 Responsive Design: Our website is optimized for use across various devices and screen sizes, ensuring seamless accessibility and usability on desktops, laptops, tablets, and smartphones.
 
+
+https://github.com/itzamar123xr/Simple-Text-to-Speech-Converter/assets/149862967/43223bba-7b93-4d24-b0d7-6baf40bcbe23
+
+
 How to Use:
 
 Enter or paste the desired text into the text input area.
